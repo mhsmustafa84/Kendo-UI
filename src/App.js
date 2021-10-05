@@ -1,11 +1,13 @@
 import React from "react";
+import { Calendar } from '@progress/kendo-react-dateinputs'
+import '@progress/kendo-theme-default/dist/all.css';
 import "./style.css";
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="App">
+      <h1>Hello KendoReact!</h1>
+      <Calendar/>
     </div>
   );
 }
